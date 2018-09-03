@@ -1,4 +1,4 @@
-# springboot-PostgreSQL-embedded-dao-testing
+# Springboot-PostgreSQL-Embedded-Dao-Testing
 ### About 
 
 This is a sample application to show how to do DAO unit testing using embedded PostgreSQL DB
