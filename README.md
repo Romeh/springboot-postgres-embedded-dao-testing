@@ -20,7 +20,7 @@ Detailed explanation can be found in : https://mromeh.com/2018/09/03/spring-boot
 - Swagger 2
 -------------------
 ### How to compile and install:
-it is a maven project , so jut clean and install and should be ready ! 
+it is a maven project , so just clean and install and should be ready ! 
 ```sh
 mvn clean install 
 ```
