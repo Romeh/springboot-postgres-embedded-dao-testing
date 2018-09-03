@@ -21,6 +21,7 @@ import io.romeh.postgresembeddeddaotesting.rest.dto.ErrorResponse;
 import io.romeh.postgresembeddeddaotesting.service.CustomerService;
 
 /**
+ * the main rest api for customer CRUD
  */
 @org.springframework.web.bind.annotation.RestController
 @RequestMapping(value = "/customers", produces = MediaType.APPLICATION_JSON_VALUE)
@@ -36,14 +37,12 @@ public class RestAPI {
 	}
 
 	@GetMapping(value = "/{id}")
-
 	public CustomerDto getCustomerById(@PathVariable long id) {
 		return customerMapper.mapCustomerToDto(customerService.findCustomerById(id));
 
 	}
 
 	@GetMapping(value = "/names/{name}")
-
 	public CustomerDto getCustomerByName(@PathVariable String name) {
 		return customerMapper.mapCustomerToDto(customerService.findCustomerByName(name));
 	}

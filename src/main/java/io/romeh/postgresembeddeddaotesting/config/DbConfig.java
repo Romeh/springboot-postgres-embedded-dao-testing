@@ -24,6 +24,7 @@ import ru.yandex.qatools.embed.postgresql.distribution.Version;
 
 /**
  * @author romeh
+ * the db spring configuration to use in production , to be replaced with actual production configuration , that is for local run only
  */
 @Configuration
 @EnableTransactionManagement

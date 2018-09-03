@@ -7,6 +7,7 @@ import io.romeh.postgresembeddeddaotesting.dao.CustomerRepository;
 import io.romeh.postgresembeddeddaotesting.domain.Customer;
 
 /**
+ * the main customer service
  */
 @Service
 public class CustomerService {
