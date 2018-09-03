@@ -1,8 +1,8 @@
-# springboot-postgres-embedded-dao-testing
+# springboot-PostgreSQL-embedded-dao-testing
 ### About 
 
-This is a sample application to show how to do DAO unit testing using embedded postgres DB
-to replicate the same conditions of your production application if you have use postgres DB.
+This is a sample application to show how to do DAO unit testing using embedded PostgreSQL DB
+to replicate the same conditions of your production application if you have use PostgreSQL DB.
 
 -------------------
 ![alt text](imgs/overview.png)
@@ -13,7 +13,7 @@ to replicate the same conditions of your production application if you have use 
 - Spring data
 - Spring REST 
 - Lombok
-- Postgres
+- PostgreSQL
 - Mapstruct for DTO mapping
 - Swagger 2
 -------------------
